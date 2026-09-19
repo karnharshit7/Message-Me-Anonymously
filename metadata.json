@@ -1,0 +1,7 @@
+{
+  "name": "Message Me Anonymously",
+  "description": "Anonymous messaging and Q&A platform to send and receive honest anonymous messages, share story cards, and customize profiles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

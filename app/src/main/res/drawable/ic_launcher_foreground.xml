@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Speech bubble body -->
+    <path
+        android:pathData="M34,26 C28,26 24,30 24,36 L24,66 C24,72 28,76 34,76 L40,76 L40,84 L50,76 L74,76 C80,76 84,72 84,66 L84,36 C84,30 80,26 74,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="26"
+                android:endX="84"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF6584" />
+                <item android:offset="0.5" android:color="#9D4EDD" />
+                <item android:offset="1.0" android:color="#4361EE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Mask cutouts -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,48 C44,44.5 40,43 37,45 C34.5,46.7 34,50 37,53 C40.5,56 44,51.5 44,48 Z" />
+    <path
+        android:fillColor="#1A0B2E"
+        android:pathData="M39.5,48.5 A2,2 0 1,1 39.4,48.4 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,48 C64,44.5 68,43 71,45 C73.5,46.7 74,50 71,53 C67.5,56 64,51.5 64,48 Z" />
+    <path
+        android:fillColor="#1A0B2E"
+        android:pathData="M68.5,48.5 A2,2 0 1,1 68.4,48.4 Z" />
+
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M44,47 C50,43 58,43 64,47" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,64 A1.8,1.8 0 1,1 47.9,63.9 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,64 A1.8,1.8 0 1,1 53.9,63.9 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,64 A1.8,1.8 0 1,1 59.9,63.9 Z" />
+</vector>
